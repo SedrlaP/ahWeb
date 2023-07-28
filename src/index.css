@@ -3,6 +3,9 @@
   --bg-color-secondary: #EDEDED;
   --text-color-primary: #F8F8F8;
   --text-color-secondary: #003D98;
+  --text-color-600: #93ACD0;
+  --layout-margin-x: 2rem;
+
 }
 
 *, *::before, *::after {
@@ -36,3 +39,19 @@ p, h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* utility */
+
+.wrapper {
+  padding: 1rem 2rem;
+}
+
+.m-bot-1 {
+  margin-bottom: 1.2rem;
+}
+

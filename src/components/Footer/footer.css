@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--bg-color-primary);
+    color: var(--text-color-primary);
+    margin-top: 10px; /* DELETE */
+}
+
+.footer__logo {
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 0.5rem + 1.6666666666666667vw, 2rem);
+    text-align: center;
+    line-height: 1.2;
+}
+
+.footer__service__title, .footer__contact__title {
+    color: var(--text-color-600)
+}
+
+.footer__service__navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.footer__contact__info > * + * {
+    margin-top: 0.5rem;
+}

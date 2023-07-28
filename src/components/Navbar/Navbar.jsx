@@ -2,12 +2,17 @@ import "./navbar.css"
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <div className="logo">
+    <header className="header wrapper">
+      <div className="header__logo">
         Autoservis <br /> Halas
       </div>
-      <nav>
-        <ul className="nav-links">
+      <input
+        type="checkbox"
+        className="header__menu-toggle"
+        id="header__menu-toggle"
+      />
+      <nav className="nav">
+        <ul className="nav__links">
           <li>
             <a href="">Úvod</a>
           </li>
@@ -28,7 +33,10 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-    </div>
+      <label for="header__menu-toggle" className="header__menu-toggle-label">
+        <span></span>
+      </label>
+    </header>
   )
 }
 
