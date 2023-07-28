@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-color-primary);
+    color: var(--text-color-primary);
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-size: clamp(1.3rem, 0.30000000000000004rem + 1.6666666666666667vw, 1.8rem);
+    text-align: center;
+    white-space: pre-line;
+    line-height: 1.2;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: clamp(1.6rem, -0.942rem + 4.519vw, 3.125rem);
+    text-transform: uppercase;
+}
+
+.nav-links > * > * {
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.2999999999999998rem + 1.166666666666667vw, 1.35rem);
+    text-decoration: none;
+    color: var(--text-color-primary);
+}
