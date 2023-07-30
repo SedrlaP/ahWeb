@@ -33,7 +33,10 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <label for="header__menu-toggle" className="header__menu-toggle-label">
+      <label
+        htmlFor="header__menu-toggle"
+        className="header__menu-toggle-label"
+      >
         <span></span>
       </label>
     </header>
