@@ -1,9 +1,7 @@
+import "./hero.css"
+
 function Hero() {
-  return (
-    <>
-      <div></div>
-    </>
-  )
+  return <img src={"./src/assets/heroimg.png"} />
 }
 
 export default Hero

@@ -4,8 +4,11 @@
   --text-color-primary: #F8F8F8;
   --text-color-secondary: #003D98;
   --text-color-600: #93ACD0;
+  --bg-color-primary-transparent: rgba(47, 96, 170, 0.99);
   --layout-margin-x: 2rem;
 }
+
+/* CSS RESET */
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -16,7 +19,6 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
   font-family: 'Merriweather', serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -44,6 +46,26 @@ ul {
   padding: 0;
 }
 
+/* GENERAL STYLES */ 
+
+body {
+  background-color: var(--bg-color-secondary);
+}
+
+#root {
+  display: flex;
+  min-height: 100dvh;
+  min-height: 100svh;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
 /* utility */
 
 .wrapper {
@@ -59,4 +81,3 @@ ul {
     margin-bottom: 0.6rem;
   }
 }
-

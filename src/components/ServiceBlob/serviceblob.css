@@ -1,0 +1,36 @@
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+}
+
+.blob {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: var(--bg-color-primary);
+    border-radius: 50px 0;
+    text-align: center;
+    aspect-ratio: 2/1;
+    max-width: 400px;
+}
+
+@media only screen and (max-width: 959px) {
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .blob {
+        max-width: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 599px) {
+    .services-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 1rem;
+    }
+}
