@@ -5,7 +5,6 @@
   --text-color-secondary: #003D98;
   --text-color-600: #93ACD0;
   --layout-margin-x: 2rem;
-
 }
 
 *, *::before, *::after {
@@ -54,3 +53,10 @@ ul {
 .m-bot-1 {
   margin-bottom: 1.2rem;
 }
+
+@media only screen and (max-width: 599px) {
+  .m-bot-1 {
+    margin-bottom: 0.6rem;
+  }
+}
+
