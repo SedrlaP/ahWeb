@@ -4,7 +4,7 @@
   --text-color-primary: #F8F8F8;
   --text-color-secondary: #003D98;
   --text-color-600: #93ACD0;
-  --bg-color-primary-transparent: rgba(47, 96, 170, 0.99);
+  --bg-color-primary-transparent: rgba(32, 67, 118, 1);
   --layout-margin-x: 2rem;
 }
 
@@ -69,7 +69,7 @@ main {
 /* utility */
 
 .wrapper {
-  padding: 1rem 2rem;
+  padding-inline: 2rem;
 }
 
 .m-bot-1 {

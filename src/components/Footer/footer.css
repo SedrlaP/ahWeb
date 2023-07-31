@@ -5,6 +5,7 @@
     background-color: var(--bg-color-primary);
     color: var(--text-color-primary);
     margin-top: auto;
+    padding-block: 2rem;
     width: 100%;
 }
 

@@ -3,34 +3,94 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     justify-items: center;
+    margin: 4rem 2rem;
 }
 
 .blob {
-    width: 100%;
-    padding: 10px 10px;
     background-color: var(--bg-color-primary);
-    border-radius: 50px 0;
+    max-width: 240px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    aspect-ratio: 2/1;
-    max-width: 400px;
+    color: var(--text-color-primary);
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.5rem + 0.8333333333333334vw, 1.5rem);
+    position: relative;
 }
 
-@media only screen and (max-width: 959px) {
+.blob:hover {
+    background-color: var(--bg-color-primary-transparent);
+}
+
+.blob:hover::before {
+    background-color: var(--bg-color-primary-transparent);
+}
+
+
+
+.blob__text {
+    margin-top: 1rem;
+}
+
+
+.blob::before{
+    content: "";
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='3em' viewBox='0 0 512 512'%3E%3C!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23f1f1f1%7D%3C/style%3E%3Cpath d='M352 320c88.4 0 160-71.6 160-160c0-15.3-2.2-30.1-6.2-44.2c-3.1-10.8-16.4-13.2-24.3-5.3l-76.8 76.8c-3 3-7.1 4.7-11.3 4.7H336c-8.8 0-16-7.2-16-16V118.6c0-4.2 1.7-8.3 4.7-11.3l76.8-76.8c7.9-7.9 5.4-21.2-5.3-24.3C382.1 2.2 367.3 0 352 0C263.6 0 192 71.6 192 160c0 19.1 3.4 37.5 9.5 54.5L19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L297.5 310.5c17 6.2 35.4 9.5 54.5 9.5zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center; */
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: var(--bg-color-primary);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: -40px;
+}
+
+@media only screen and (min-width: 600px) {
+    .blob {
+        width: 100%;
+        padding: 0.625rem 0.625rem;
+        border-radius: 3rem 0;
+        aspect-ratio: 3/2;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 959px) {
     .services-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
 
     .blob {
-        max-width: 300px;
+        max-width: 200px;
+    }
+
+    .blob:nth-child(3), .blob:nth-child(4){
+        margin-block-start: 2.5rem;
     }
 }
 
-
 @media only screen and (max-width: 599px) {
     .services-container {
+        align-self: center;
+        justify-content: space-evenly;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         gap: 1rem;
+        padding-block-end: 1rem;
+    }
+
+    .blob {
+        width: 100%;
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+        aspect-ratio: 3/2;
+    }
+
+    .blob:not(:first-child) {
+        margin-block-start: 3rem;
     }
 }
