@@ -22,6 +22,7 @@
 
 .blob:hover {
     background-color: var(--bg-color-primary-transparent);
+    cursor: pointer;
 }
 
 .blob:hover::before {
