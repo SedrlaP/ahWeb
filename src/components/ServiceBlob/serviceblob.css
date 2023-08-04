@@ -3,7 +3,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     justify-items: center;
-    margin: 4rem 2rem;
+    margin: 6rem 2rem 4rem;
 }
 
 .blob {

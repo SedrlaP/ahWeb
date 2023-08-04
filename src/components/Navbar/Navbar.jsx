@@ -1,6 +1,14 @@
 import "./navbar.css"
+import { Link } from "react-router-dom"
+import { useState } from "react"
 
 function Navbar() {
+  const [isChecked, setIsChecked] = useState(false)
+
+  function closeMenu() {
+    setIsChecked(false)
+  }
+
   return (
     <header className="header wrapper">
       <div className="header__logo">
@@ -10,26 +18,40 @@ function Navbar() {
         type="checkbox"
         className="header__menu-toggle"
         id="header__menu-toggle"
+        checked={isChecked}
+        onChange={() => setIsChecked((state) => !state)}
       />
       <nav className="nav">
         <ul className="nav__links">
           <li>
-            <a href="">Úvod</a>
+            <Link to={`/`} onClick={closeMenu}>
+              Úvod
+            </Link>
           </li>
           <li>
-            <a href="">Autoservis</a>
+            <Link to={`autoservis`} onClick={closeMenu}>
+              Autoservis
+            </Link>
           </li>
           <li>
-            <a href="">Pneuservis</a>
+            <Link to={`pneuservis`} onClick={closeMenu}>
+              Pneuservis
+            </Link>
           </li>
           <li>
-            <a href="">Autopůjčovna</a>
+            <Link to={`autopujcovna`} onClick={closeMenu}>
+              Autopůjčovna
+            </Link>
           </li>
           <li>
-            <a href="">Pojistné událost</a>
+            <Link to={`pojistneudalosti`} onClick={closeMenu}>
+              Pojistné události
+            </Link>
           </li>
           <li>
-            <a href="">Kontakt</a>
+            <Link to={`kontakt`} onClick={closeMenu}>
+              Kontakt
+            </Link>
           </li>
         </ul>
       </nav>

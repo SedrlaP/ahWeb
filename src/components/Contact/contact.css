@@ -3,6 +3,8 @@
     grid-template-columns: 1fr 1fr;
     justify-items: center;
     margin-block: 4rem;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.6428571428571428rem + 0.7142857142857143vw, 1.5rem);
 }
 
 .contact__card-list > * + * {
@@ -17,6 +19,15 @@
 
 .placeholder {
     width: 100%;
+    min-width: 235px;
     height: 150px;
     background-color: aqua;
+}
+
+@media only screen and (max-width: 599px) {
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        margin-block: 2rem;
+    }
 }

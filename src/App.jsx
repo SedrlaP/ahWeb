@@ -1,19 +1,13 @@
 import Navbar from "./components/Navbar/Navbar.jsx"
-import Hero from "./components/Hero/Hero.jsx"
 import Footer from "./components/Footer/Footer.jsx"
-import ServiceBlob from "./components/ServiceBlob/ServiceBlob.jsx"
-import Contact from "./components/Contact/Contact.jsx"
+import { Outlet } from "react-router-dom"
 
 function App() {
   return (
     <>
       <Navbar />
       <main>
-        <Hero />
-        {/* 
-          <ServiceBlob />   
-        */}
-        <Contact />
+        <Outlet />
       </main>
       <Footer />
     </>
