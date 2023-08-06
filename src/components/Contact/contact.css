@@ -21,7 +21,7 @@
     width: 100%;
     min-width: 235px;
     height: 150px;
-    background-color: aqua;
+    background-color: #9d9d9d;
 }
 
 @media only screen and (max-width: 599px) {
