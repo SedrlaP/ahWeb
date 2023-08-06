@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: var(--bg-color-primary);
+    background-color: var(--bg-color-primary-transparent);
     color: var(--text-color-primary);
     margin-top: auto;
     padding-block: 2rem;

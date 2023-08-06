@@ -4,7 +4,8 @@
   --text-color-primary: #F8F8F8;
   --text-color-secondary: #003D98;
   --text-color-600: #93ACD0;
-  --bg-color-primary-transparent: rgba(32, 67, 118, 1);
+  --bg-color-primary-transparent: rgba(0, 61, 152, .825);
+  --bg-color-secondary-transparent: rgba(237, 237, 237, .6);
   --layout-margin-x: 2rem;
 }
 
@@ -54,7 +55,7 @@ ul {
 /* GENERAL STYLES */ 
 
 body {
-  background-color: var(--bg-color-secondary);
+  background: var(--bg-color-secondary);
 }
 
 #root {
@@ -63,11 +64,23 @@ body {
   min-height: 100svh;
   min-height: 100vh;
   flex-direction: column;
+  height: 100%;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  
+}
+
+@media only screen and (min-width: 960px) {
+
+  body {
+    background-image: url("./assets/bg-main.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  }
 }
 
 
