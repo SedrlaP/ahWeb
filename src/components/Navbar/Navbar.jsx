@@ -1,5 +1,5 @@
 import "./navbar.css"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import { useState } from "react"
 
 function Navbar() {
@@ -24,34 +24,58 @@ function Navbar() {
       <nav className="nav">
         <ul className="nav__links">
           <li>
-            <Link to={`/`} onClick={closeMenu}>
+            <NavLink
+              to={`/`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
               Úvod
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={`autoservis`} onClick={closeMenu}>
+            <NavLink
+              to={`autoservis`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
               Autoservis
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={`pneuservis`} onClick={closeMenu}>
+            <NavLink
+              to={`pneuservis`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
               Pneuservis
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={`autopujcovna`} onClick={closeMenu}>
+            <NavLink
+              to={`autopujcovna`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
               Autopůjčovna
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={`pojistneudalosti`} onClick={closeMenu}>
+            <NavLink
+              to={`pojistneudalosti`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
               Pojistné události
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to={`kontakt`} onClick={closeMenu}>
+            <NavLink
+              to={`kontakt`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
               Kontakt
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>

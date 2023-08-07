@@ -1,4 +1,5 @@
 import "./footer.css"
+import { Link } from "react-router-dom"
 
 function Footer() {
   return (
@@ -11,10 +12,18 @@ function Footer() {
           Služby
         </h3>
         <ul className="footer__service__navigation footer-text-fs">
-          <li>Autoservis</li>
-          <li>Pojístné události</li>
-          <li>Pneuservis</li>
-          <li>Autopůjčovna</li>
+          <li>
+            <Link to={`autoservis`}>Autoservis</Link>
+          </li>
+          <li>
+            <Link to={`autopujcovna`}>Autopůjčovna</Link>
+          </li>
+          <li>
+            <Link to={`pneuservis`}>Pneuservis</Link>
+          </li>
+          <li>
+            <Link to={`pojistneudalosti`}>Pojístné události</Link>
+          </li>
         </ul>
       </div>
       <div className="footer__contact">
