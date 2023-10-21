@@ -20,7 +20,9 @@
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
+    text-align: center;
 }
+
 
 .hero__title {
     font-size: 2rem;

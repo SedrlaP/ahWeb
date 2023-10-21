@@ -50,6 +50,7 @@ function Navbar() {
               Pneuservis
             </NavLink>
           </li>
+          {/* 
           <li>
             <NavLink
               to={`autopujcovna`}
@@ -58,7 +59,8 @@ function Navbar() {
             >
               Autopůjčovna
             </NavLink>
-          </li>
+          </li> 
+          */}
           <li>
             <NavLink
               to={`pojistneudalosti`}

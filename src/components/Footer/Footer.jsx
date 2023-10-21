@@ -15,9 +15,10 @@ function Footer() {
           <li>
             <Link to={`autoservis`}>Autoservis</Link>
           </li>
+          {/*
           <li>
             <Link to={`autopujcovna`}>Autopůjčovna</Link>
-          </li>
+          </li> */}
           <li>
             <Link to={`pneuservis`}>Pneuservis</Link>
           </li>
@@ -31,9 +32,9 @@ function Footer() {
           Kontakt
         </h3>
         <ul className="footer__contact__info footer-text-fs">
-          <li>+420 123 456 789</li>
-          <li>Ulice 140, Město, 624 25</li>
-          <li>email@gmail.com</li>
+          <li>+420 775 338 324</li>
+          <li>Horní Dubňany 43, 671 73 Horní Dubňany</li>
+          <li>renaulthalas@seznam.cz</li>
         </ul>
       </div>
     </footer>

@@ -7,6 +7,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .error > * + * {
@@ -19,4 +20,15 @@
     padding: 0.5rem;
     text-decoration: none;
     color: var(--text-color-primary)
+}
+
+@media only screen and (max-width: 600px) {
+    .error {
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .error__button {
+        padding: 0.2rem;
+    }
 }

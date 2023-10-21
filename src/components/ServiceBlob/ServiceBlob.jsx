@@ -28,6 +28,7 @@ function ServiceBlob() {
         <FontAwesomeIcon icon={faCarSide} style={style} />
         <h3 className="blob__text">PNEUSERVIS</h3>
       </button>
+      {/* 
       <button className="blob" onClick={() => navigate("/autopujcovna")}>
         <FontAwesomeIcon icon={faCar} style={style} />
         <h3 className="blob__text">
@@ -35,6 +36,7 @@ function ServiceBlob() {
           PŮJČOVNA
         </h3>
       </button>
+  */}
       <button className="blob" onClick={() => navigate("/pojistneudalosti")}>
         <FontAwesomeIcon icon={faCarBurst} style={style} />
         <h3 className="blob__text">

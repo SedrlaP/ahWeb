@@ -90,6 +90,22 @@ main {
   padding-inline: 2rem;
 }
 
+.wrapper-block {
+  padding-block: 2rem;
+}
+
+.text-formating > * + * {
+  margin-top: 1rem;
+}
+
+.text-block > * + * {
+  margin-top: 0.5rem;
+}
+
+.text-spacer > * + * {
+  margin-top: 2rem;
+}
+
 .m-bot-1 {
   margin-bottom: 1.2rem;
 }

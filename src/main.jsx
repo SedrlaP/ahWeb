@@ -45,6 +45,7 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
+      /*
       {
         path: "/autopujcovna",
         element: (
@@ -53,6 +54,7 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
+      */
       {
         path: "/pojistneudalosti",
         element: (
