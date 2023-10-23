@@ -5,7 +5,7 @@ function PojistneUdalosti() {
     <>
       <div className="hero">
         <h2 className="hero__title">Pojistné události</h2>
-        <img className="hero__img" src="./assets/pojistneudalosti.png" />
+        <img className="hero__img" src="./src/assets/pojistneudalosti.png" />
       </div>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Měli jste dopravní nehodu?</p>

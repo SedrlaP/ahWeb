@@ -5,7 +5,7 @@ function Autoservis() {
     <>
       <div className="hero">
         <h2 className="hero__title">Autoservis</h2>
-        <img className="hero__img" src="./assets/autoservis.png" />
+        <img className="hero__img" src="./src/assets/autoservis.png" />
       </div>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
@@ -46,7 +46,7 @@ function Autoservis() {
       </div>
       <div className="hero">
         <h2 className="hero__title">Lakovna</h2>
-        <img className="hero__img" src="./assets/lakovna.png" />
+        <img className="hero__img" src="./src/assets/lakovna.png" />
       </div>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
