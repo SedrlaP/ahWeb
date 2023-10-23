@@ -1,0 +1,1 @@
+import{j as s}from"./index-c0859833.js";/* empty css             */function t({title:e,img:r}){return s.jsxs("div",{className:"hero",children:[s.jsx("h2",{className:"hero__title",children:e}),r&&s.jsx("img",{className:"hero__img",src:`./${r}.png`})]})}export{t as H};
