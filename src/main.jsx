@@ -5,10 +5,10 @@ import "./index.css"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Suspense, lazy } from "react"
 
-import "./src/assets/autoservis.png"
-import "./src/assets/lakovna.png"
-import "./src/assets/pojistneudalosti.png"
-import "./src/assets/pneuservis.png"
+import "./assets/autoservis.png"
+import "./assets/lakovna.png"
+import "./assets/pojistneudalosti.png"
+import "./assets/pneuservis.png"
 
 const Home = lazy(() => import("./pages/Home/Home.jsx"))
 const Autoservis = lazy(() => import("./pages/Autoservis/Autoservis.jsx"))
