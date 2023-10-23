@@ -1,12 +1,12 @@
 @media only screen and (min-width: 1920px) {
-    img { 
+    .hero__img { 
         max-width: 1920px !important;
         align-self: center;
     }
 }
 
 @media only screen and (max-width: 599px) {
-    img {
+    .hero__img {
         display: none !important;
     }
 }

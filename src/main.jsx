@@ -5,8 +5,6 @@ import "./index.css"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Suspense, lazy } from "react"
 
-const modules = import.meta.glob("./assets/*.png", { eager: true })
-
 const Home = lazy(() => import("./pages/Home/Home.jsx"))
 const Autoservis = lazy(() => import("./pages/Autoservis/Autoservis.jsx"))
 const Pneuservis = lazy(() => import("./pages/Pneuservis/Pneuservis.jsx"))
