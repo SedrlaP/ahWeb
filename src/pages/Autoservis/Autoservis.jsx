@@ -3,7 +3,7 @@ import Hero from "../../components/Hero/Hero"
 function Autoservis() {
   return (
     <>
-      <Hero title={"Autoservis"} img={"./assets/autoservis.png"} />
+      <Hero title={"Autoservis"} img={"autoservis"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           Náš autoservis vám nabízí kompletní služby pod jednou střechou –
@@ -41,7 +41,7 @@ function Autoservis() {
           <p>• montáž tažných zařízení </p>
         </div>
       </div>
-      <Hero title={"Lakovna"} img={"./assets/lakovna.png"} />
+      <Hero title={"Lakovna"} img={"lakovna"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           V naší lakovně zajišťujeme kompletní profesionální lakýrnické práce –

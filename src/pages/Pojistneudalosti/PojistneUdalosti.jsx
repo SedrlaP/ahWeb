@@ -3,7 +3,7 @@ import Hero from "../../components/Hero/Hero"
 function PojistneUdalosti() {
   return (
     <>
-      <Hero title={"Pojistné události"} img={"./assets/pojistneudalosti.png"} />
+      <Hero title={"Pojistné události"} img={"pojistneudalosti"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Měli jste dopravní nehodu?</p>
         <p>
