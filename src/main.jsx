@@ -7,7 +7,10 @@ import { Suspense, lazy } from "react"
 
 const Home = lazy(() => import("./pages/Home/Home.jsx"))
 const Autoservis = lazy(() => import("./pages/Autoservis/Autoservis.jsx"))
-const AsImage = lazy(() => import("./assets/autoservis.png"))
+const Image = lazy(() => import("./assets/autoservis.png"))
+const Image2 = lazy(() => import("./assets/lakovna.png"))
+const Image3 = lazy(() => import("./assets/pojistneudalosti.png"))
+const Image4 = lazy(() => import("./assets/pneuservis.png"))
 const Pneuservis = lazy(() => import("./pages/Pneuservis/Pneuservis.jsx"))
 //const Autopujcovna = lazy(() => import("./pages/Autopujcovna/Autopujcovna.jsx"))
 const PojistneUdalosti = lazy(() =>
