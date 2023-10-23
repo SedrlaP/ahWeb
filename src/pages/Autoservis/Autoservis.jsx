@@ -1,11 +1,12 @@
 import Hero from "../../components/Hero/Hero"
+import autoservisImg from "/src/assets/autoservis.png"
 
 function Autoservis() {
   return (
     <>
       <div className="hero">
         <h2 className="hero__title">Autoservis</h2>
-        <img className="hero__img" src="./src/assets/autoservis.png" />
+        <img className="hero__img" src={autoservisImg} />
       </div>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
