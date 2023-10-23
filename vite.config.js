@@ -7,7 +7,7 @@ export default defineConfig({
   base: "/ahWeb/",
   build: {
     rollupOptions: {
-      external: ["pneuservis.png", "autoservis.png", "lakovna.png", "pojstneudalosti.png"]
+      external: ["./src/assets/pneuservis.png", "autoservis.png", "lakovna.png", "pojstneudalosti.png"]
     }
   }
 })
