@@ -41,7 +41,7 @@ function Autoservis() {
           <p>• montáž tažných zařízení </p>
         </div>
       </div>
-      <Hero title={"Lakovna"} />
+      <Hero title={"Lakovna"} img={"lakovna"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           V naší lakovně zajišťujeme kompletní profesionální lakýrnické práce –
