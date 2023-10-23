@@ -5,11 +5,6 @@ import "./index.css"
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { Suspense, lazy } from "react"
 
-import "./assets/autoservis.png"
-import "./assets/lakovna.png"
-import "./assets/pojistneudalosti.png"
-import "./assets/pneuservis.png"
-
 const Home = lazy(() => import("./pages/Home/Home.jsx"))
 const Autoservis = lazy(() => import("./pages/Autoservis/Autoservis.jsx"))
 const Pneuservis = lazy(() => import("./pages/Pneuservis/Pneuservis.jsx"))
