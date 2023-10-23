@@ -5,7 +5,7 @@ function Hero({ title, img }) {
     <div className="hero">
       <h2 className="hero__title">{title}</h2>
       {img && (
-        <img className="hero__img" src={`ahWeb/public/assets/${img}.png`} />
+        <img className="hero__img" src={`/ahWeb/public/assets/${img}.png`} />
       )}
     </div>
   )
