@@ -3,10 +3,7 @@ import Hero from "../../components/Hero/Hero"
 function Pneuservis() {
   return (
     <>
-      <div className="hero">
-        <h2 className="hero__title">Pneuservis</h2>
-        <img className="hero__img" src="./src/assets/pneuservis.png" />
-      </div>
+      <Hero title={"Pneuservis"} img={"pneuservis"} />
       <div className="wrapper wrapper-block text-formating">
         <p>Správné přezutí a vyvážení kol je základem bezpečné jízdy!</p>
         <p>
