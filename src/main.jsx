@@ -15,37 +15,38 @@ const PojistneUdalosti = lazy(() =>
 const Kontakt = lazy(() => import("./pages/Kontakt/Kontakt.jsx"))
 const ErrorPage = lazy(() => import("./pages/ErrorPage/ErrorPage.jsx"))
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        index: true,
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Home />
-          </Suspense>
-        ),
-      },
-      {
-        path: "/autoservis",
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Autoservis />
-          </Suspense>
-        ),
-      },
-      {
-        path: "/pneuservis",
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Pneuservis />
-          </Suspense>
-        ),
-      },
-      /*
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      errorElement: <ErrorPage />,
+      children: [
+        {
+          index: true,
+          element: (
+            <Suspense fallback={<div>Loading...</div>}>
+              <Home />
+            </Suspense>
+          ),
+        },
+        {
+          path: "/autoservis",
+          element: (
+            <Suspense fallback={<div>Loading...</div>}>
+              <Autoservis />
+            </Suspense>
+          ),
+        },
+        {
+          path: "/pneuservis",
+          element: (
+            <Suspense fallback={<div>Loading...</div>}>
+              <Pneuservis />
+            </Suspense>
+          ),
+        },
+        /*
       {
         path: "/autopujcovna",
         element: (
@@ -55,25 +56,27 @@ const router = createBrowserRouter([
         ),
       },
       */
-      {
-        path: "/pojistneudalosti",
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <PojistneUdalosti />
-          </Suspense>
-        ),
-      },
-      {
-        path: "/kontakt",
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Kontakt />
-          </Suspense>
-        ),
-      },
-    ],
-  },
-])
+        {
+          path: "/pojistneudalosti",
+          element: (
+            <Suspense fallback={<div>Loading...</div>}>
+              <PojistneUdalosti />
+            </Suspense>
+          ),
+        },
+        {
+          path: "/kontakt",
+          element: (
+            <Suspense fallback={<div>Loading...</div>}>
+              <Kontakt />
+            </Suspense>
+          ),
+        },
+      ],
+    },
+  ],
+  { basename: "/ahWeb" }
+)
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
