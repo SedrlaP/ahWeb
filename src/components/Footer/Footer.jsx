@@ -15,10 +15,9 @@ function Footer() {
           <li>
             <Link to={`autoservis`}>Autoservis</Link>
           </li>
-          {/*
           <li>
             <Link to={`autopujcovna`}>Autopůjčovna</Link>
-          </li> */}
+          </li> 
           <li>
             <Link to={`pneuservis`}>Pneuservis</Link>
           </li>

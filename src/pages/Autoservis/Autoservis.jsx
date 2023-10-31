@@ -41,12 +41,20 @@ function Autoservis() {
           <p>• montáž tažných zařízení </p>
         </div>
       </div>
+      <Hero title={"Klempírna"} img={""} />
+      <div className="wrapper wrapper-block text-formating text-spacer">
+        <p>Na drobnější karosářské práce (promáčklé dveře či blatníky) používáme soupravu pro opravy karosérií se spotovacím přístrojem a repasním kladivem, která umožňuje rychlé a efektivní vyrovnání různých promáčklin na ocelových i hliníkových karosériích bez demontáže poškozených dílů. Souprava má navíc funkci elektrického prohřívání plechu, jež zaručuje, že opravovaný materiál neztrácí své prvotní vlastnosti a tím nedochází k jeho předčasné korozi.</p>
+        <p>Na rozsáhlejší opravy karosérií lehkých a užitkových vozidel do hmotnosti 2500 kg používáme rovnací stolici včetně měřícího systému.</p>
+      </div>
+
+
       <Hero title={"Lakovna"} img={"lakovna"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           V naší lakovně zajišťujeme kompletní profesionální lakýrnické práce –
           lakování jednotlivých dílů i celého vozu.
         </p>
+        <p>Používáme pouze kvalitní premiový lakovací materiál značky Glasurit + RM</p>
         <p>
           Ztratil-li váš vůz atraktivní lesklý vzhled, zajišťujeme i leštění
           karoserie!
@@ -63,8 +71,10 @@ function Autoservis() {
           U nás vaši klimatizaci vyčistíme, opravíme a doplníme chladivem i pro
           nejnovější vozy.
         </p>
+        <h2>Plnění klimatizace</h2>
         <div className="text-block">
-          <h4>V rámci základního servisu klimatizace provedeme: </h4>
+
+           <h3>V rámci základního servisu klimatizace provedeme: </h3>
           <p>• odsátí a recyklace starého chladiva ze systému klimatizace </p>
           <p>
             • zbavení mechanických nečistot a vlhkosti vakuací chladicího
@@ -77,7 +87,9 @@ function Autoservis() {
           <p>• tlakové zkoušky jednotlivých částí okruhu klimatizace </p>
           <p>• plnění okruhu speciálním olejem </p>
           <p>• plnění okruhu autoklimatizace chladivem R134a nebo 1234yf </p>
-          <p>• zkoušku funkčnosti klimatizace Volitelné dodatečné služby </p>
+          <p>• zkoušku funkčnosti klimatizace</p>
+
+          <h3>Volitelné dodatečné služby </h3>
           <p>• doplnění UV kontrastní látky do chladiva </p>
           <p>
             • dezinfekce klimatizace ultrazvukovým přístrojem

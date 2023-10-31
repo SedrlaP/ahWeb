@@ -15,7 +15,7 @@ function PojistneUdalosti() {
 
         <div className="partner">Jsme smluvním partnerem pojištovny KOOPERATIVA a ČPP 
           <div className="partner__logo">
-            <img src="./src/assets/logo-koop.svg" alt="kooperativa logo" style={{"max-width":"185px"}}/>
+            <img src="./src/assets/logo-koop.svg" alt="kooperativa logo" style={{"max-width":"200px"}}/>
             <img src="./src/assets/logo-cpp.svg" alt="čpp logo" />
           </div>
         </div>
@@ -82,7 +82,7 @@ function PojistneUdalosti() {
             leasing/úvěr)
           </p>
         </div>
-        <p>Můžete si stáhnout formulář v pdf <a href="https://www.autocentrum.cz/data/File/2017/servis/specialista_oprav/formular-o-nehode.pdf">Záznam o dopravní nehodě</a></p>
+        <p>Můžete si stáhnout formulář v pdf <a href="https://www.autocentrum.cz/data/File/2017/servis/specialista_oprav/formular-o-nehode.pdf" target="_blank" >Záznam o dopravní nehodě</a></p>
       </div>
     </>
   )

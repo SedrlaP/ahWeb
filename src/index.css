@@ -38,6 +38,12 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
+p {
+  line-height: 1.75;
+  max-width: 50rem;
+  text-overflow: ellipsis;
+}
+
 h1 {
   font-size: 2rem;
   font-weight: 400;
@@ -98,7 +104,7 @@ main {
 
 .divide {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 0.5rem;
 }
 
@@ -114,20 +120,38 @@ main {
   padding-inline: 2rem;
 }
 
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    padding-inline: 4rem;
+  }
+
+  .header.wrapper {
+    padding-inline: 2rem;
+  }
+}
 .wrapper-block {
   padding-block: 2rem;
 }
 
 .text-formating > * + * {
-  margin-top: 1rem;
+  margin-block-start: 1rem;
 }
 
 .text-block > * + * {
-  margin-top: 0.5rem;
+  margin-block-start: 0.5rem;
 }
 
+.text-block h3 {
+  margin-block-start: 2rem;
+  margin-block-end: 1rem;
+} 
+
 .text-spacer > * + * {
-  margin-top: 2rem;
+  margin-block-start: 2rem;
+}
+
+.text-spacer h2 {
+  margin-block-start: 3rem;
 }
 
 .m-bot-1 {
