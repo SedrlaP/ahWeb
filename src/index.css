@@ -1,0 +1,126 @@
+:root {
+  --bg-color-primary: #2F60AA;
+  --bg-color-secondary: #EDEDED;
+  --text-color-primary: #F8F8F8;
+  --text-color-secondary: #003D98;
+  --text-color-600: #93ACD0;
+  --bg-color-primary-transparent: rgba(0, 61, 152, .825);
+  --bg-color-secondary-transparent: rgba(237, 237, 237, .6);
+  --layout-margin-x: 2rem;
+}
+
+/* CSS RESET */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* GENERAL STYLES */ 
+
+body {
+  background: var(--bg-color-secondary);
+}
+
+#root {
+  display: flex;
+  min-height: 100dvh;
+  min-height: 100svh;
+  min-height: 100vh;
+  flex-direction: column;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    background-image: url("./assets/bg-main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+
+@media only screen and (min-width: 960px) {
+
+  body {
+    background-image: url("./assets/bg-main.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}
+
+
+/* utility */
+
+.wrapper {
+  padding-inline: 2rem;
+}
+
+.wrapper-block {
+  padding-block: 2rem;
+}
+
+.text-formating > * + * {
+  margin-top: 1rem;
+}
+
+.text-block > * + * {
+  margin-top: 0.5rem;
+}
+
+.text-spacer > * + * {
+  margin-top: 2rem;
+}
+
+.m-bot-1 {
+  margin-bottom: 1.2rem;
+}
+
+@media only screen and (max-width: 599px) {
+  .m-bot-1 {
+    margin-bottom: 0.6rem;
+  }
+}

@@ -1,0 +1,34 @@
+.error {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    height: 100svh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.error > * + * {
+    margin-top: 1rem;
+}
+
+.error__button {
+    background: var(--bg-color-primary);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--text-color-primary)
+}
+
+@media only screen and (max-width: 600px) {
+    .error {
+        padding-inline: 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .error__button {
+        padding: 0.2rem;
+    }
+}
