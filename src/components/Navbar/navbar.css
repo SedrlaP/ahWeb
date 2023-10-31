@@ -39,6 +39,22 @@
   transform: scaleX(1);
 }
 
+.nav__dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--bg-color-primary);
+    padding: 1rem;
+    margin-inline-start: -1rem;
+}
+
+.nav__dropdown-menu li {
+    margin-block-start: .5rem;
+}
+
+.drop:hover .nav__dropdown-menu {
+    display: block;
+}
+
 .active::after{
     content: '';
     position: absolute;

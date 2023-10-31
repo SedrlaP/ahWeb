@@ -32,7 +32,7 @@ function Navbar() {
               Úvod
             </NavLink>
           </li>
-          <li>
+          <li className="drop">
             <NavLink
               to={`autoservis`}
               className={({ isActive }) => (isActive ? "active" : "")}
@@ -40,6 +40,15 @@ function Navbar() {
             >
               Autoservis
             </NavLink>
+            <div className="nav__dropdown-menu">
+              <ul>
+                <li>Klempírna</li>
+                <li>Lakovna</li>
+                <li>Čištění a servis klimatizací</li>
+                <li>Montáže tažných zařízení</li>
+                <li>Zajištění STK a emisí</li>
+              </ul>
+            </div>
           </li>
           <li>
             <NavLink
