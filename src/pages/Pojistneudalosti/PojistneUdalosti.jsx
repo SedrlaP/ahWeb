@@ -9,8 +9,8 @@ function PojistneUdalosti() {
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Měli jste dopravní nehodu?</p>
         <p>
-          Nezoufejte, poradíme vám, jak postupovat a pojistnou událost kompletně
-          vyřídíme s našimi smluvními i nesmluvními pojišťovnami za vás!
+          Nezoufejte, <strong>poradíme vám, jak postupovat</strong> a <strong>pojistnou událost kompletně
+          vyřídíme</strong> s našimi smluvními i nesmluvními pojišťovnami za vás!
         </p>
 
         <div className="partner">Jsme smluvním partnerem pojištovny KOOPERATIVA a ČPP 
@@ -22,20 +22,21 @@ function PojistneUdalosti() {
         <div className="text-block">
           <h3>Co zařídíme:</h3>
           <p>
-            • V případě havárie a pojistné události za Vás vyřídíme veškeré
-            jednání s pojišťovnou.
+            • v případě havárie a pojistné události za Vás <strong>vyřídíme veškeré
+            jednání</strong> s pojišťovnou.
           </p>
+          <p>• zajistíme odtah vašeho poškozeného vozu</p>
           <p>
-            • Kompletně opravíme a nalakujeme poškozené díly dle doporučených
+            • <strong>kompletně opravíme a nalakujeme</strong> poškozené díly dle doporučených
             technologických postupů výrobce zaručujících kvalitu opravy a
             bezpečnost Vaší jízdy.
           </p>
           <p>
-            • Po dobu opravy vám můžeme zapůjčit náhradní vozidlo,takže
+            • po dobu opravy vám můžeme zapůjčit náhradní vozidlo,takže
             zůstanete mobilní.
           </p>
           <p>
-            • Zajistíme prohlídku Vašeho poškozeného vozidla technikem
+            • zajistíme prohlídku Vašeho poškozeného vozidla technikem
             pojišťovny. Všechny faktury pojišťovně dokládáme výpočtem v odborném
             expertním systému.
           </p>

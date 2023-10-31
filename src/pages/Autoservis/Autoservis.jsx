@@ -12,8 +12,8 @@ function Autoservis() {
           geometrie a mnoho dalších služeb.
         </p>
         <p>
-          Opravujeme automobily osobní i užitkové, všech značek a jakéhokoliv
-          stáří. Záleží nám na vašem přání, a proto používáme jak originální
+        <strong>Opravujeme automobily osobní i užitkové, všech značek a jakéhokoliv
+          stáří.</strong> Záleží nám na vašem přání, a proto používáme jak originální
           díly, tak díly neoriginální renomovaných a kvalitních dodavatelů.
         </p>
         <div className="text-block">
@@ -43,15 +43,15 @@ function Autoservis() {
       </div>
       <Hero title={"Klempírna"} img={""} />
       <div className="wrapper wrapper-block text-formating text-spacer">
-        <p>Na drobnější karosářské práce (promáčklé dveře či blatníky) používáme soupravu pro opravy karosérií se spotovacím přístrojem a repasním kladivem, která umožňuje rychlé a efektivní vyrovnání různých promáčklin na ocelových i hliníkových karosériích bez demontáže poškozených dílů. Souprava má navíc funkci elektrického prohřívání plechu, jež zaručuje, že opravovaný materiál neztrácí své prvotní vlastnosti a tím nedochází k jeho předčasné korozi.</p>
-        <p>Na rozsáhlejší opravy karosérií lehkých a užitkových vozidel do hmotnosti 2500 kg používáme rovnací stolici včetně měřícího systému.</p>
+        <p>Na drobnější <strong>karosářské práce</strong> (promáčklé dveře či blatníky) používáme soupravu pro opravy karosérií se spotovacím přístrojem a repasním kladivem, která umožňuje rychlé a efektivní vyrovnání různých promáčklin na ocelových i hliníkových karosériích bez demontáže poškozených dílů. Souprava má navíc funkci elektrického prohřívání plechu, jež zaručuje, že opravovaný materiál neztrácí své prvotní vlastnosti a tím nedochází k jeho předčasné korozi.</p>
+        <p>Na rozsáhlejší <strong>opravy karosérií</strong> lehkých a užitkových vozidel do hmotnosti 2500 kg používáme rovnací stolici včetně měřícího systému.</p>
       </div>
 
 
       <Hero title={"Lakovna"} img={"lakovna"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
-          V naší lakovně zajišťujeme kompletní profesionální lakýrnické práce –
+          V naší lakovně zajišťujeme <strong>kompletní profesionální lakýrnické práce</strong> –
           lakování jednotlivých dílů i celého vozu.
         </p>
         <p>Používáme pouze kvalitní premiový lakovací materiál značky Glasurit + RM</p>
