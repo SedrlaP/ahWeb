@@ -23,7 +23,7 @@ function Navbar() {
       />
       <nav className="nav">
         <ul className="nav__links">
-          <li>
+        <li>
             <NavLink
               to={`/`}
               className={({ isActive }) => (isActive ? "active" : "")}
@@ -68,6 +68,15 @@ function Navbar() {
               Autopůjčovna
             </NavLink>
           </li> 
+          <li>
+            <NavLink
+              to={`onas`}
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={closeMenu}
+            >
+              O nás
+            </NavLink>
+          </li>
           <li>
             <NavLink
               to={`kontakt`}

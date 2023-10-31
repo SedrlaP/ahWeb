@@ -24,7 +24,7 @@ function Autoservis() {
           <p>• výměna olejů, filtrů a provozních kapalin </p>
           <p>• oprava motorů, výměny rozvodových řemenů a kladek </p>
           <p>
-            • oprava převodovek manuálních a automatických, opravy diferenciálů
+            • oprava převodovek manuálních, opravy diferenciálů
             a rozvodovek
           </p>
           <p>• výměna spojkových sad a setrvačníků • výměny dílů podvozku </p>
@@ -80,8 +80,7 @@ function Autoservis() {
           <p>• zkoušku funkčnosti klimatizace Volitelné dodatečné služby </p>
           <p>• doplnění UV kontrastní látky do chladiva </p>
           <p>
-            • dezinfekce klimatizace ultrazvukovým přístrojem značky
-            MagnetiMareli
+            • dezinfekce klimatizace ultrazvukovým přístrojem
           </p>
           <p>• výměna kabinového filtru</p>
         </div>

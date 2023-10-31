@@ -1,4 +1,6 @@
 import Hero from "../../components/Hero/Hero"
+import "./pojistneu.css"
+
 
 function PojistneUdalosti() {
   return (
@@ -10,8 +12,15 @@ function PojistneUdalosti() {
           Nezoufejte, poradíme vám, jak postupovat a pojistnou událost kompletně
           vyřídíme s našimi smluvními i nesmluvními pojišťovnami za vás!
         </p>
+
+        <div className="partner">Jsme smluvním partnerem pojištovny KOOPERATIVA a ČPP 
+          <div className="partner__logo">
+            <img src="./src/assets/logo-koop.svg" alt="kooperativa logo" style={{"max-width":"185px"}}/>
+            <img src="./src/assets/logo-cpp.svg" alt="čpp logo" />
+          </div>
+        </div>
         <div className="text-block">
-          <h4>Co zařídíme:</h4>
+          <h3>Co zařídíme:</h3>
           <p>
             • V případě havárie a pojistné události za Vás vyřídíme veškeré
             jednání s pojišťovnou.
@@ -30,16 +39,17 @@ function PojistneUdalosti() {
             pojišťovny. Všechny faktury pojišťovně dokládáme výpočtem v odborném
             expertním systému.
           </p>
-          <p>
-            • Jsme smluvním partnerem pojišťovny KOOPERATIVA a ČPP. Potřebné
-            doklady Vyřízení pojistných událostí se neobejde bez dodání nutných
-            dokladů.
-          </p>
         </div>
-        <h3>Co od vás budeme potřebovat? </h3>
-
         <div className="text-block">
-          <h4>Poškozený:</h4>
+            <p>
+            Vyřízení pojistných událostí se neobejde bez dodání nutných
+            dokladů.
+            </p>
+          </div>
+        <h2>Co od vás budeme potřebovat? </h2>
+        <div className="divide">
+        <div className="text-block">
+          <h3>Poškozený:</h3>
           <p>• velký a malý technický průkaz </p>
           <p>• řidičský průkaz </p>
           <p>• záznam o nehodě (pokud byl sepsán účastníky nehody) </p>
@@ -50,7 +60,7 @@ function PojistneUdalosti() {
           </p>
         </div>
         <div className="text-block">
-          <h4>Viník:</h4>
+          <h3>Viník:</h3>
           <p>• velký a malý technický průkaz</p>
           <p>• řidičský průkaz </p>
           <p>• pojistnou smlouvu</p>
@@ -61,8 +71,9 @@ function PojistneUdalosti() {
             leasing/úvěr)
           </p>
         </div>
+        </div>
         <div className="text-block">
-          <h4>Připojištěné čelní sklo: </h4>
+          <h3>Připojištěné čelní sklo: </h3>
           <p>• velký a malý technický průkaz </p>
           <p>• řidičský průkaz </p>
           <p>• pojistnou smlouvu </p>
@@ -71,7 +82,7 @@ function PojistneUdalosti() {
             leasing/úvěr)
           </p>
         </div>
-        <p>Můžete si stáhnout formulář v pdf Záznam o dopravní nehodě</p>
+        <p>Můžete si stáhnout formulář v pdf <a href="https://www.autocentrum.cz/data/File/2017/servis/specialista_oprav/formular-o-nehode.pdf">Záznam o dopravní nehodě</a></p>
       </div>
     </>
   )

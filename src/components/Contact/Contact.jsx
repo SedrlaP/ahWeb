@@ -11,10 +11,10 @@ function Contact() {
           </li>
           <li className="contact__card-text">Email: renaulthalas@seznam.cz</li>
           <li className="contact__card-text">Telefon: +420 775 338 324</li>
-          <li className="contact__card-text">IČO: 124567886765</li>
-          <li className="contact__card-text">DIČ: 824545676985</li>
+          <li className="contact__card-text">IČO: 76664490</li>
+          <li className="contact__card-text">DIČ: CZ8902285139</li>
           <li className="contact__card-text">
-            Facebook: autolakovnahornidubnany
+            Facebook: AutoservisHalas
           </li>
         </ul>
       </div>
@@ -23,8 +23,8 @@ function Contact() {
         <div className="two-column">
           <p className="contact__card-text">Pondělí-Pátek:</p>
           <p className="contact__card-text">
-            8:00-11:30 <br />
-            12:00-16:00
+            8:00-12:30 <br />
+            13:00-16:30
           </p>
         </div>
         <div className="placeholder"></div>

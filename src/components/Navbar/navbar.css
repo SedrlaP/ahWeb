@@ -107,7 +107,7 @@
 
 /* MOBILE MENU */
 
-@media only screen and (max-width: 959px) {
+@media only screen and (width <= 1200px) {
     .nav {
         position: absolute;
         text-align: left;
@@ -155,7 +155,7 @@
 
 /* DESKTOP MENU */
 
-@media only screen and (min-width: 960px) {
+@media only screen and (width > 1200px) {
     .header {
         display: flex;
         justify-content: space-around;
@@ -169,8 +169,8 @@
     }
 
     .nav__links > * > * {
-        font-size: 0.9rem;
-        font-size: clamp(0.9rem, 0rem + 1.5000000000000002vw, 1.35rem);
+        font-size: 1rem;
+        
         text-decoration: none;
         color: var(--text-color-primary);
     }
