@@ -7,6 +7,8 @@
   --bg-color-primary-transparent: rgba(0, 61, 152, .825);
   --bg-color-secondary-transparent: rgba(237, 237, 237, .6);
   --layout-margin-x: 2rem;
+  
+  scroll-behavior: smooth;
 }
 
 /* CSS RESET */
@@ -40,7 +42,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 p {
   line-height: 1.75;
-  max-width: 50rem;
+  max-width: 60rem;
   text-overflow: ellipsis;
 }
 
@@ -141,10 +143,15 @@ main {
   margin-block-start: 0.5rem;
 }
 
-.text-block h3 {
+.text-block p {
+  margin-inline-start: 0.5rem;
+}
+
+.text-block h3, .text-block h2 {
   margin-block-start: 2rem;
   margin-block-end: 1rem;
-} 
+  color: var(--bg-color-primary)  
+}
 
 .text-spacer > * + * {
   margin-block-start: 2rem;

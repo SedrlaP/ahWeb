@@ -1,9 +1,20 @@
+import { useParams } from "react-router-dom"
 import Hero from "../../components/Hero/Hero"
+import { useEffect } from "react";
 
 function Autoservis() {
+
+  let {id} = useParams();
+
+  useEffect(() => {
+    const elem = document.getElementById(id)
+    elem.scrollIntoView({block: "start"})
+  }, [] 
+  )
+
   return (
     <>
-      <Hero title={"Autoservis"} img={"autoservis"} />
+      <Hero title={"Autoservis"} img={"autoservis"} id={"servis"}/>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           Náš autoservis vám nabízí kompletní služby pod jednou střechou –
@@ -99,11 +110,26 @@ function Autoservis() {
       </div>
       <Hero title={"Montáže tažných zařízení"} id={"montaze"}/>
       <div className="wrapper wrapper-block text-formating text-spacer">
-
+        <p>Provádíme certifikovanou <strong>montáž tažných zařízení</strong> značek SVC, BOSAL a dalších, včetně univerzální nebo typové elektroinstalace, a to na veškerá osobní i užitková vozidla.</p>
+        <p>Tažná zařízení těchto značek <strong>montujeme</strong> v rámci <strong>jednoho dne</strong>. K tažnému zařízení obdržíte typový list a certifikát o odborné montáži, který je nezbytný pro přihlášení na dopravním inspektorátu.</p>
       </div>
       <Hero title={"Zajištění STK a emisí"} id={"stkemise"}/>
       <div className="wrapper wrapper-block text-formating text-spacer">
-
+        <div className="text-block">
+          <h2>Příprava na STK</h2>
+          <p>Prověříme funkčnost a bezpečnost všech systémů – od brzd až po světla. Po domluvě s vámi odstraníme případné nedostatky či doplníme povinnou výbavu vozu, aby STK proběhla bez jakýchkoliv komplikací.</p>
+        </div>
+        <div className="text-block">
+          <h2>Zajištění STK a emisí</h2>
+          <p>Svůj vůz přivezete k nám do autoservisu spolu s potřebnými doklady:</p>
+          <p>• velký technický průkaz</p>
+          <p>• malý technický průkaz</p>
+          <p>• zelená karta (pojištění)</p>
+        </div>
+        <div className="text-block">
+          <h2>Připomínka STK</h2>
+          <p>Pokud pravidelně zapomínáte na termín ukončení vaší STK, svěřte se kompletně do naší péče a <strong>my se postaráme</strong> o to, aby vám <strong>technická již nikdy nepropadla!</strong> Naše stálé zákazníky před uplynutím platnosti STK vždy v dostatečném předstihu kontaktujeme.</p>
+        </div>
       </div>
     </>
   )

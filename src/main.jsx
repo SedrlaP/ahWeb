@@ -30,11 +30,11 @@ const router = createBrowserRouter(
           ),
         },
         {
-          path: "/autoservis",
+          path: "/autoservis/:id",
           element: (
             <Suspense fallback={<div>Loading...</div>}>
               <Autoservis />
-            </Suspense>
+            </Suspense>  
           ),
         },
         {

@@ -12,6 +12,7 @@
 }
 
 .hero {
+    scroll-margin-block-start: 5rem;
     width: 100%;
     height: 10rem;
     background-color: var(--bg-color-secondary);

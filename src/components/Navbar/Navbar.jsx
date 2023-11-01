@@ -34,7 +34,7 @@ function Navbar() {
           </li>
           <li className="drop">
             <NavLink
-              to={`autoservis`}
+              to={`autoservis/servis`}
               className={({ isActive }) => (isActive ? "active" : "")}
               onClick={closeMenu}
             >
@@ -42,11 +42,11 @@ function Navbar() {
             </NavLink>
             <div className="nav__dropdown-menu">
               <ul className="nav__dropdown-links">
-                <li><a href="/autoservis#klempirna">Klempírna</a></li>
-                <li><a href="/autoservis#lakovna">Lakovna</a></li>
-                <li><a href="/autoservis#klimatizace">Čištění a servis klimatizací</a></li>
-                <li><a href="/autoservis#montaze">Montáže tažných zařízení</a></li>
-                <li><a href="/autoservis#stkemise">Zajištění STK a emisí</a></li>
+                <li><a href="/autoservis/klempirna">Klempírna</a></li>
+                <li><a href="/autoservis/lakovna">Lakovna</a></li>
+                <li><a href="/autoservis/klimatizace">Čištění a servis klimatizací</a></li>
+                <li><a href="/autoservis/montaze">Montáže tažných zařízení</a></li>
+                <li><a href="/autoservis/stkemise">Zajištění STK a emisí</a></li>
               </ul>
             </div>
           </li>
