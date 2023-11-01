@@ -41,14 +41,14 @@ function Autoservis() {
           <p>• montáž tažných zařízení </p>
         </div>
       </div>
-      <Hero title={"Klempírna"} img={""} />
+      <Hero title={"Klempírna"} img={""} id="klempirna" />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Na drobnější <strong>karosářské práce</strong> (promáčklé dveře či blatníky) používáme soupravu pro opravy karosérií se spotovacím přístrojem a repasním kladivem, která umožňuje rychlé a efektivní vyrovnání různých promáčklin na ocelových i hliníkových karosériích bez demontáže poškozených dílů. Souprava má navíc funkci elektrického prohřívání plechu, jež zaručuje, že opravovaný materiál neztrácí své prvotní vlastnosti a tím nedochází k jeho předčasné korozi.</p>
         <p>Na rozsáhlejší <strong>opravy karosérií</strong> lehkých a užitkových vozidel do hmotnosti 2500 kg používáme rovnací stolici včetně měřícího systému.</p>
       </div>
 
 
-      <Hero title={"Lakovna"} img={"lakovna"} />
+      <Hero title={"Lakovna"} img={"lakovna"} id="lakovna" />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           V naší lakovně zajišťujeme <strong>kompletní profesionální lakýrnické práce</strong> –
@@ -61,7 +61,7 @@ function Autoservis() {
         </p>
         <p>Veškeré práce provádíme na osobních i užitkových automobilech. </p>
       </div>
-      <Hero title={"Čištění a servis klimatizací"} />
+      <Hero title={"Čištění a servis klimatizací"} id={"klimatizace"}/>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
           Klimatizace vyžaduje stejnou profesionální péči jako jakákoliv jiná
@@ -96,6 +96,14 @@ function Autoservis() {
           </p>
           <p>• výměna kabinového filtru</p>
         </div>
+      </div>
+      <Hero title={"Montáže tažných zařízení"} id={"montaze"}/>
+      <div className="wrapper wrapper-block text-formating text-spacer">
+
+      </div>
+      <Hero title={"Zajištění STK a emisí"} id={"stkemise"}/>
+      <div className="wrapper wrapper-block text-formating text-spacer">
+
       </div>
     </>
   )

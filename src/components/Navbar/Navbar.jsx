@@ -38,15 +38,15 @@ function Navbar() {
               className={({ isActive }) => (isActive ? "active" : "")}
               onClick={closeMenu}
             >
-              Autoservis
+              Autoservis &#11206;
             </NavLink>
             <div className="nav__dropdown-menu">
-              <ul>
-                <li>Klempírna</li>
-                <li>Lakovna</li>
-                <li>Čištění a servis klimatizací</li>
-                <li>Montáže tažných zařízení</li>
-                <li>Zajištění STK a emisí</li>
+              <ul className="nav__dropdown-links">
+                <li><a href="/autoservis#klempirna">Klempírna</a></li>
+                <li><a href="/autoservis#lakovna">Lakovna</a></li>
+                <li><a href="/autoservis#klimatizace">Čištění a servis klimatizací</a></li>
+                <li><a href="/autoservis#montaze">Montáže tažných zařízení</a></li>
+                <li><a href="/autoservis#stkemise">Zajištění STK a emisí</a></li>
               </ul>
             </div>
           </li>
