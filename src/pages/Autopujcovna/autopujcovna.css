@@ -1,0 +1,37 @@
+.autopujcovna__card-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-block-start: 2rem;
+}
+
+.autopujcovna__card {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--bg-color-secondary);
+}
+
+.autopujcovna__card p {
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (min-width:680px) {
+    .autopujcovna__card {
+        width: 20%;
+    }    
+}
+
+@media only screen and (max-width: 680px) {
+    .autopujcovna__card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .autopujcovna__card {
+        width: 80%;
+        margin-block-end: 1.5rem;
+    }
+
+}
