@@ -15,8 +15,8 @@ function PojistneUdalosti() {
 
         <div className="partner">Jsme smluvním partnerem pojištovny KOOPERATIVA a ČPP 
           <div className="partner__logo">
-            <img src="./src/assets/logo-koop.svg" alt="kooperativa logo" style={{"max-width":"200px"}}/>
-            <img src="./src/assets/logo-cpp.svg" alt="čpp logo" />
+            <img src="/logo-koop.svg" alt="kooperativa logo" style={{"max-width":"200px"}}/>
+            <img src="/logo-cpp.svg" alt="čpp logo" />
           </div>
         </div>
         <div className="text-block">
