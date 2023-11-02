@@ -13,7 +13,7 @@ function Autoservis() {
   )
 
   return (
-    <>
+    <section>
       <Hero title={"Autoservis"} img={"autoservis"} id={"servis"}/>
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
@@ -57,8 +57,6 @@ function Autoservis() {
         <p>Na drobnější <strong>karosářské práce</strong> (promáčklé dveře či blatníky) používáme soupravu pro opravy karosérií se spotovacím přístrojem a repasním kladivem, která umožňuje rychlé a efektivní vyrovnání různých promáčklin na ocelových i hliníkových karosériích bez demontáže poškozených dílů. Souprava má navíc funkci elektrického prohřívání plechu, jež zaručuje, že opravovaný materiál neztrácí své prvotní vlastnosti a tím nedochází k jeho předčasné korozi.</p>
         <p>Na rozsáhlejší <strong>opravy karosérií</strong> lehkých a užitkových vozidel do hmotnosti 2500 kg používáme rovnací stolici včetně měřícího systému.</p>
       </div>
-
-
       <Hero title={"Lakovna"} img={"lakovna"} id="lakovna" />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
@@ -131,7 +129,7 @@ function Autoservis() {
           <p>Pokud pravidelně zapomínáte na termín ukončení vaší STK, svěřte se kompletně do naší péče a <strong>my se postaráme</strong> o to, aby vám <strong>technická již nikdy nepropadla!</strong> Naše stálé zákazníky před uplynutím platnosti STK vždy v dostatečném předstihu kontaktujeme.</p>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

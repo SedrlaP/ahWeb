@@ -31,7 +31,7 @@ function Autopujcovna() {
   ))
 
   return (
-  <>
+  <section>
     <Hero title={"Autopůjčovna"} img={"autopujcovna"} />
     <div className="wrapper wrapper-block text-formating text-spacer">
       <p>Měli jste nehodu a <strong>potřebujete náhradní vůz</strong>, abyste zůstali mobilní? Nenecháme vás na holičkách!</p>
@@ -44,7 +44,7 @@ function Autopujcovna() {
       </div>
       <p>Všechny naše automobily jsou vždy ve 100% stavu a pravidelně servisovány. Zpravidla nijak <strong>neomezujeme ani samostatně neúčtujeme najeté kilometry</strong>. Všechny vozy jsou pojištěné v rámci celé Evropy proti odcizení a havárii.</p>
     </div>
-  </>
+  </section>
   )
 }
 

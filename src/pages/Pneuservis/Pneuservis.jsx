@@ -2,7 +2,7 @@ import Hero from "../../components/Hero/Hero"
 
 function Pneuservis() {
   return (
-    <>
+    <section>
       <Hero title={"Pneuservis"} img={"pneuservis"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p><strong>Správné přezutí a vyvážení kol je základem bezpečné jízdy!</strong></p>
@@ -24,7 +24,7 @@ function Pneuservis() {
           <p>• ekologická likvidace starých pneumatik</p>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

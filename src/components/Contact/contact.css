@@ -3,8 +3,7 @@
     grid-template-columns: 1fr 1fr;
     justify-items:center; 
     margin-block: 4rem;
-    font-size: 1rem;
-    font-size: clamp(1rem, 0.6428571428571428rem + 0.7142857142857143vw, 1.5rem);   
+    font-size: 1rem;   
 }
 
 .contact__card {
@@ -23,17 +22,27 @@
     margin-bottom: 1.5rem;
 }
 
-.placeholder {
-    width: 100%;
-    min-width: 235px;
-    max-width: 400px;
-    height: 150px;
-    background-color: #9d9d9d;
-}
-
 .two-column {
     display: flex;
     gap: 1rem;
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    min-width: 250px;
+    aspect-ratio: 16/9;
+}
+
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 @media only screen and (min-width: 960px) {

@@ -2,11 +2,11 @@ import Hero from "../../components/Hero/Hero"
 
 function ONas() {
   return (
-    <>
+    <section>
       <Hero title={"O nás"} img={""} />
       <div className="wrapper wrapper-block text-spacer text-formating">
         <h3>Kdo jsme a co nabízíme?</h3>
-        <p>Potřebujete opravit váš osobní či užitkový vůz nebo zajistit jeho pravidelný servis? Zastavte se u nás! Jsme autoservis s téměř 30letou tradicí.</p>
+        <p style={{maxWidth : "100%"}}>Potřebujete opravit váš osobní či užitkový vůz nebo zajistit jeho pravidelný servis? Zastavte se u nás! Jsme autoservis s téměř 30letou tradicí.</p>
 
         <div className="text-block">
           <h3>Nabízíme vše, co váš automobil potřebuje:</h3>
@@ -37,7 +37,7 @@ function ONas() {
           <p>Máte sjednané havarijní pojištění u některé z jiných pojišťoven? Ani to pro nás není překážkou! I za vás vyřídíme veškerou komunikaci a potřebnou dokumentaci s pojišťovnou, včetně prohlídky technikem (i zde bez finanční účasti).</p>
         </div>
       </div>
-    </>
+    </section>
   )
 }
 

@@ -4,7 +4,7 @@ import "./home.css"
 
 function Home() {
   return (
-    <>
+    <section>
       <div className="homepage-hero wrapper wrapper-block">
         <h1>
           Pravidelný servis nebo okamžitá oprava vašeho vozu? <br />
@@ -13,7 +13,7 @@ function Home() {
         </h1>
       </div>
       <ServiceBlob />
-    </>
+    </section>
   )
 }
 

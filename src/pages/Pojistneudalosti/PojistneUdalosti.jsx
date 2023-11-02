@@ -4,7 +4,7 @@ import "./pojistneu.css"
 
 function PojistneUdalosti() {
   return (
-    <>
+    <section>
       <Hero title={"Pojistné události"} img={"pojistneudalosti"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Měli jste dopravní nehodu?</p>
@@ -46,7 +46,7 @@ function PojistneUdalosti() {
             Vyřízení pojistných událostí se neobejde bez dodání nutných
             dokladů.
             </p>
-          </div>
+        </div>
         <h2>Co od vás budeme potřebovat? </h2>
         <div className="divide">
         <div className="text-block">
@@ -85,7 +85,7 @@ function PojistneUdalosti() {
         </div>
         <p>Můžete si stáhnout formulář v pdf <a href="https://www.autocentrum.cz/data/File/2017/servis/specialista_oprav/formular-o-nehode.pdf" target="_blank" >Záznam o dopravní nehodě</a></p>
       </div>
-    </>
+    </section>
   )
 }
 
