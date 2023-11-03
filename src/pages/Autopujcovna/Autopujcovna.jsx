@@ -6,27 +6,29 @@ function Autopujcovna() {
 
   const cars = [
   {
-    "model" : "octavia",
+    "img": "/megane.jpg",
+    "model" : "Renault Megane 1.5 dCi",
     "cena" : "1000",
   },
   {
-    "model" : "fabia",
+    "img": "/espace.jpg",
+    "model" : "Renault Espace 2.0 dCi",
     "cena" : "2000",
   },
   {
-    "model" : "kodiaq",
+    "img": "",
+    "model" : "Citroen C3",
     "cena" : "3000",
-  }, 
-  {
-    "model" : "test",
-    "cena" : "500",
   }, 
   ]
 
   const cardElements = cars.map((car) => (
     <div key={car.model} className="autopujcovna__card">
-      <p>{car.model}</p>
-      <p>{car.cena} Kč/den</p>
+      <img src={car.img}/>
+      <div className="autopujcovna__card-text">
+        <p>{car.model}</p>
+        <p>{car.cena} Kč/den</p>
+      </div>
     </div>
   ))
 
