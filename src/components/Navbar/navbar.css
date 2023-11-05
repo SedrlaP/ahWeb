@@ -37,7 +37,12 @@
     text-align: center;
     align-items: center;
     gap: 0.5rem;
-    margin-inline-end: 20%;
+
+}
+
+.header__upper-opening {
+    display: flex;
+    gap: 1rem;
 }
 
 .nav__links a {
@@ -169,7 +174,7 @@ border-top: 1px solid #93ACD0;
         scroll-margin-block-start: 6rem;
     }
 
-    .header__upper-tel {
+    .header__upper-tel, .header__upper-opening {
         display: none;
     }
 

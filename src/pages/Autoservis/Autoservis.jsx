@@ -1,6 +1,7 @@
 import { useLocation } from "react-router-dom"
 import Hero from "../../components/Hero/Hero"
 import { useEffect } from "react"
+import "./autoservis.css"
 
 function Autoservis() {
   let location = useLocation()
@@ -33,7 +34,7 @@ function Autoservis() {
           <strong>
             Opravujeme automobily osobní i užitkové, všech značek a jakéhokoliv
             stáří.
-          </strong>
+          </strong>{" "}
           Záleží nám na vašem přání, a proto používáme jak originální díly, tak
           díly neoriginální renomovaných a kvalitních dodavatelů.
         </p>
@@ -79,21 +80,28 @@ function Autoservis() {
         </p>
       </div>
       <Hero title={"Lakovna"} img={"lakovna"} id="lakovna" />
-      <div className="wrapper wrapper-block text-formating text-spacer">
-        <p>
-          V naší lakovně zajišťujeme{" "}
-          <strong>kompletní profesionální lakýrnické práce</strong> – lakování
-          jednotlivých dílů i celého vozu.
-        </p>
-        <p>
-          Používáme pouze kvalitní premiový lakovací materiál značky Glasurit +
-          RM
-        </p>
-        <p>
-          Ztratil-li váš vůz atraktivní lesklý vzhled, zajišťujeme i leštění
-          karoserie!
-        </p>
-        <p>Veškeré práce provádíme na osobních i užitkových automobilech. </p>
+      <div className="wrapper wrapper-block text-formating text-spacer lakovna-block">
+        <div className="text-block lakovna-text">
+          <p>
+            V naší lakovně zajišťujeme{" "}
+            <strong>kompletní profesionální lakýrnické práce</strong> – lakování
+            jednotlivých dílů i celého vozu.
+          </p>
+          <p>
+            Používáme pouze kvalitní premiový lakovací materiál značky Glasurit
+            + RM
+          </p>
+          <p>
+            Ztratil-li váš vůz atraktivní lesklý vzhled, zajišťujeme i leštění
+            karoserie!
+          </p>
+          <p>Veškeré práce provádíme na osobních i užitkových automobilech. </p>
+        </div>
+        <div className="lakovna-image">
+          <img src="/laky.jpg" />
+          <img src="/lakovna-mistnost.jpg" />
+          <img src="/certifikat-laky.png" />
+        </div>
       </div>
       <Hero title={"Čištění a servis klimatizací"} id={"klimatizace"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
@@ -136,7 +144,7 @@ function Autoservis() {
           elektroinstalace, a to na veškerá osobní i užitková vozidla.
         </p>
         <p>
-          Tažná zařízení těchto značek <strong>montujeme</strong> v rámci{" "}
+          Tažná zařízení těchto značek <strong>montujeme</strong> v rámci
           <strong>jednoho dne</strong>. K tažnému zařízení obdržíte typový list
           a certifikát o odborné montáži, který je nezbytný pro přihlášení na
           dopravním inspektorátu.

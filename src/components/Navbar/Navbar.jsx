@@ -32,6 +32,13 @@ function Navbar() {
           <FontAwesomeIcon icon={faMobileScreen} style={style} />
           <span>775 338 324</span>
         </div>
+        <div className="header__upper-opening">
+          <p>Pondělí-Pátek</p>
+          <p>
+            8:00-12:30 <br />
+            13:00-16:30
+          </p>
+        </div>
       </div>
       <div className="header__lower">
         <input

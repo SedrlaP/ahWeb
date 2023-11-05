@@ -40,7 +40,7 @@ function Autopujcovna() {
           zůstali mobilní? Nenecháme vás na holičkách!
         </p>
         <p>
-          Nabízíme vám možnost využití naší autopůjčovny. Máme{" "}
+          Nabízíme vám možnost využití naší autopůjčovny. Máme
           <strong>vozidla všech segmentů</strong> – nižší, střední a vyšší
           třídy. Náhradní vozidlo si lze zapůjčit na jeden den až týden, ale i
           déle – za zvýhodněné ceny.
@@ -51,7 +51,7 @@ function Autopujcovna() {
         </div>
         <p>
           Všechny naše automobily jsou vždy ve 100% stavu a pravidelně
-          servisovány. Zpravidla nijak{" "}
+          servisovány. Zpravidla nijak
           <strong>
             neomezujeme ani samostatně neúčtujeme najeté kilometry
           </strong>

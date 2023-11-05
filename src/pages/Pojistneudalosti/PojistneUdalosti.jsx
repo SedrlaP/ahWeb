@@ -8,7 +8,7 @@ function PojistneUdalosti() {
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Měli jste dopravní nehodu?</p>
         <p>
-          Nezoufejte, <strong>poradíme vám, jak postupovat</strong> a{" "}
+          Nezoufejte, <strong>poradíme vám, jak postupovat</strong> a
           <strong>pojistnou událost kompletně vyřídíme</strong> s našimi
           smluvními i nesmluvními pojišťovnami za vás!
         </p>
@@ -88,7 +88,7 @@ function PojistneUdalosti() {
           </p>
         </div>
         <p>
-          Můžete si stáhnout formulář v pdf{" "}
+          Můžete si stáhnout formulář v pdf
           <a
             href="https://www.autocentrum.cz/data/File/2017/servis/specialista_oprav/formular-o-nehode.pdf"
             target="_blank"
