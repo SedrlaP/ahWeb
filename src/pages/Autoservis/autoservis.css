@@ -7,6 +7,10 @@
     max-width: 25%;
 }
 
+.autoservis a {
+    color: inherit;
+}
+
 @media only screen and (width <= 800px) {
     .lakovna-image {
         flex-direction: column;

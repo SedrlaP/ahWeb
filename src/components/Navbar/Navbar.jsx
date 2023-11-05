@@ -94,6 +94,11 @@ function Navbar() {
                       Zajištění STK a emisí
                     </Link>
                   </li>
+                  <li>
+                    <Link to={`autoservis#krupobiti`} onClick={closeMenu}>
+                      Oprava po krupobiti
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </li>

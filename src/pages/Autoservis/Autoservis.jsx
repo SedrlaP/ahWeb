@@ -13,7 +13,8 @@ function Autoservis() {
       location.hash === "#lakovna" ||
       location.hash === "#klimatizace" ||
       location.hash === "#montaze" ||
-      location.hash === "#stkemise"
+      location.hash === "#stkemise" ||
+      location.hash === "#krupobiti"
     ) {
       const elem = document.querySelector(`${location.hash}`)
       elem.scrollIntoView({ block: "start" })
@@ -21,7 +22,7 @@ function Autoservis() {
   }, [location])
 
   return (
-    <section>
+    <section className="autoservis">
       <Hero title={"Autoservis"} img={"autoservis"} id={"servis"} />
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>
@@ -179,6 +180,18 @@ function Autoservis() {
             kontaktujeme.
           </p>
         </div>
+      </div>
+      <Hero title={"Oprava po krupobití"} id={"krupobiti"} />
+      <div className="wrapper wrapper-block text-formating text-spacer">
+        <p>
+          Máte poškozené vozidlo po krupobití? Opravíme jej šetrnou metodou PDR
+          bez poškození laku. Spolupracujeme s firmou Doktor Důlek (
+          <a target="_blank" href="https://www.doktor-dulek.cz/cs/">
+            www.doktor-dulek.cz
+          </a>
+          ) ,který je smluvním partnerem pojišťoven. Také pomůžeme s vyřízením
+          škody na pojišťovně
+        </p>
       </div>
     </section>
   )
