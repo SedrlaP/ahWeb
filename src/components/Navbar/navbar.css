@@ -235,9 +235,13 @@ border-top: 1px solid #93ACD0;
         align-items: center;
     }
 
+    .header__upper {
+        padding-inline: 2rem;
+    }
+
     .nav__links {
         display: flex;
-        gap: 1rem;
+        gap: clamp(0.833rem, 0.399rem + 0.825vw, 1.25rem);
         text-transform: uppercase;
     }
 
