@@ -1,4 +1,4 @@
-import { useParams, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 import Hero from "../../components/Hero/Hero"
 import { useEffect } from "react"
 
@@ -33,7 +33,7 @@ function Autoservis() {
           <strong>
             Opravujeme automobily osobní i užitkové, všech značek a jakéhokoliv
             stáří.
-          </strong>{" "}
+          </strong>
           Záleží nám na vašem přání, a proto používáme jak originální díly, tak
           díly neoriginální renomovaných a kvalitních dodavatelů.
         </p>
