@@ -189,7 +189,7 @@ function Autoservis() {
           <a target="_blank" href="https://www.doktor-dulek.cz/cs/">
             www.doktor-dulek.cz
           </a>
-          ) ,který je smluvním partnerem pojišťoven. Také pomůžeme s vyřízením
+          ), který je smluvním partnerem pojišťoven. Také pomůžeme s vyřízením
           škody na pojišťovně
         </p>
       </div>
