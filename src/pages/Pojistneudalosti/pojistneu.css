@@ -1,0 +1,17 @@
+
+
+.partner img {
+ max-width: 160px;
+}
+
+.partner__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width:425px) {
+  .partner__logo {
+    flex-direction: column;
+  }
+}
