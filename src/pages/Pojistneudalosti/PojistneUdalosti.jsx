@@ -8,7 +8,7 @@ function PojistneUdalosti() {
       <div className="wrapper wrapper-block text-formating text-spacer">
         <p>Měli jste dopravní nehodu?</p>
         <p>
-          Nezoufejte, <strong>poradíme vám, jak postupovat</strong> a
+          Nezoufejte, <strong>poradíme vám, jak postupovat</strong> a{" "}
           <strong>pojistnou událost kompletně vyřídíme</strong> s našimi
           smluvními i nesmluvními pojišťovnami za vás!
         </p>
@@ -37,16 +37,19 @@ function PojistneUdalosti() {
             kvalitu opravy a bezpečnost Vaší jízdy.
           </p>
           <p>
-            • po dobu opravy vám můžeme zapůjčit náhradní vozidlo,takže
+            • po dobu opravy vám můžeme zapůjčit náhradní vozidlo, takže
             zůstanete mobilní.
           </p>
           <p>
             • zajistíme prohlídku Vašeho poškozeného vozidla technikem
-            pojišťovny. Všechny faktury pojišťovně dokládáme výpočtem v odborném
-            expertním systému.
+            pojišťovny. 
           </p>
+          
         </div>
         <div className="text-block">
+          <p>Všechny faktury pojišťovně dokládáme výpočtem v odborném
+            expertním systému.
+          </p>
           <p>
             Vyřízení pojistných událostí se neobejde bez dodání nutných dokladů.
           </p>

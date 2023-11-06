@@ -11,13 +11,14 @@
     color: inherit;
 }
 
-.klimatizace-block {
+
+.klimatizace-block, .krupobiti-block {
     display: flex;
     gap: 3rem;
 }
 
 @media only screen and (width <= 1010px) {
-    .klimatizace-block {
+    .klimatizace-block, .krupobiti-block {
         flex-direction: column;
         gap: 1.5rem;
     }    
@@ -25,6 +26,15 @@
 
 .klimatizace-image-container {
     align-self: center;
+    min-width: 350px;
+    width: 350px;
+}
+
+.klimatizace-image-container > * + * {
+    margin-block-start: 0.5rem;
+}
+
+.krupobiti-image-container {
     min-width: 350px;
     width: 350px;
 }

@@ -17,7 +17,7 @@ function Autoservis() {
       location.hash === "#krupobiti"
     ) {
       const elem = document.querySelector(`${location.hash}`)
-      elem.scrollIntoView({ block: "start" })
+      elem.scrollIntoView()
     }
   }, [location])
 
@@ -49,7 +49,8 @@ function Autoservis() {
           <p>
             • oprava převodovek manuálních, opravy diferenciálů a rozvodovek
           </p>
-          <p>• výměna spojkových sad a setrvačníků • výměny dílů podvozku </p>
+          <p>• výměna spojkových sad a setrvačníků </p>
+          <p>• výměny dílů podvozku </p>
           <p>• oprava brzd a výměna brzdové kapaliny </p>
           <p>• měření a seřízení geometrie náprav </p>
           <p>• opravy a výměny výfuků, katalyzátorů, čištění DPF filtrů </p>
@@ -142,8 +143,9 @@ function Autoservis() {
             <p>• dezinfekce klimatizace ultrazvukovým přístrojem</p>
             <p>• výměna kabinového filtru</p>
           </div>
-          <div className="klimatizace-image-container round-corner">
-            <img src="/klimatizace.jpg"/>
+          <div className="klimatizace-image-container">
+            <img className="round-corner" src="/klimatizace.jpg"/>
+            <img className="round-corner" src="/cisteni.jpg"/>
           </div>
         </div>
         
@@ -156,7 +158,7 @@ function Autoservis() {
           elektroinstalace, a to na veškerá osobní i užitková vozidla.
         </p>
         <p>
-          Tažná zařízení těchto značek <strong>montujeme</strong> v rámci
+          Tažná zařízení těchto značek <strong>montujeme</strong> v rámci{" "}
           <strong>jednoho dne</strong>. K tažnému zařízení obdržíte typový list
           a certifikát o odborné montáži, který je nezbytný pro přihlášení na
           dopravním inspektorátu.
@@ -193,7 +195,7 @@ function Autoservis() {
         </div>
       </div>
       <Hero title={"Oprava po krupobití"} id={"krupobiti"} />
-      <div className="wrapper wrapper-block text-formating text-spacer">
+      <div className="wrapper wrapper-block text-formating text-spacer krupobiti-block">
         <p>
           Máte poškozené vozidlo po krupobití? Opravíme jej šetrnou metodou PDR
           bez poškození laku. Spolupracujeme s firmou Doktor Důlek (
@@ -203,6 +205,9 @@ function Autoservis() {
           ), který je smluvním partnerem pojišťoven. Také pomůžeme s vyřízením
           škody na pojišťovně
         </p>
+        <div className="krupobiti-image-container round-corner">
+          <img src="/krupobiti.jpg"/>
+        </div>
       </div>
     </section>
   )
