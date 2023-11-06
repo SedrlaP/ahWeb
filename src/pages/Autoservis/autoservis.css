@@ -1,9 +1,9 @@
-.lakovna-image {
+.lakovna-image-container, .autoservis-image-container {
     display: flex;
     justify-content: space-evenly;
 }
 
-.lakovna-image img {
+.lakovna-image-container img, .autoservis-image-container img{
     max-width: 25%;
 }
 
@@ -11,14 +11,34 @@
     color: inherit;
 }
 
+.klimatizace-block {
+    display: flex;
+    gap: 3rem;
+}
+
+@media only screen and (width <= 1010px) {
+    .klimatizace-block {
+        flex-direction: column;
+        gap: 1.5rem;
+    }    
+}
+
+.klimatizace-image-container {
+    align-self: center;
+    min-width: 350px;
+    width: 350px;
+}
+
+
+
 @media only screen and (width <= 800px) {
-    .lakovna-image {
+    .lakovna-image-container, .autoservis-image-container {
         flex-direction: column;
         gap: 1.5rem;
         align-items: center;
     }
 
-    .lakovna-image img {
+    .lakovna-image-container img, .autoservis-image-container img{
         max-width: 80%;
     }
 }

@@ -88,7 +88,7 @@ function PojistneUdalosti() {
           </p>
         </div>
         <p>
-          Můžete si stáhnout formulář v pdf
+          Můžete si stáhnout formulář v pdf{" "}
           <a
             href="https://www.autocentrum.cz/data/File/2017/servis/specialista_oprav/formular-o-nehode.pdf"
             target="_blank"
@@ -96,6 +96,7 @@ function PojistneUdalosti() {
             Záznam o dopravní nehodě
           </a>
         </p>
+      <div className="certifikaty"><img src="/certifikat-koop.jpg"/><img src="/certifikat-cpp.jpg"/></div>
       </div>
     </section>
   )

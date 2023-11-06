@@ -62,6 +62,11 @@ function Autoservis() {
           <p>• výměna autoskel</p>
           <p>• montáž tažných zařízení </p>
         </div>
+        <div className="autoservis-image-container">
+          <img className="round-corner" src="/autoservis1.jpg"/>
+          <img className="round-corner" src="/autoservis2.jpg"/>  
+          <img className="round-corner" src="/autoservis3.jpg"/>
+        </div>
       </div>
       <Hero title={"Klempírna"} img={""} id="klempirna" />
       <div className="wrapper wrapper-block text-formating text-spacer">
@@ -98,10 +103,10 @@ function Autoservis() {
           </p>
           <p>Veškeré práce provádíme na osobních i užitkových automobilech. </p>
         </div>
-        <div className="lakovna-image">
-          <img src="/laky.jpg" />
-          <img src="/lakovna-mistnost.jpg" />
-          <img src="/certifikat-laky.png" />
+        <div className="lakovna-image-container ">
+          <img className="round-corner" src="/laky.jpg" />
+          <img className="round-corner" src="/lakovna-mistnost.jpg" />
+          <img className="round-corner" src="/certifikat-laky.png" />
         </div>
       </div>
       <Hero title={"Čištění a servis klimatizací"} id={"klimatizace"} />
@@ -115,27 +120,33 @@ function Autoservis() {
           nejnovější vozy.
         </p>
         <h2>Plnění klimatizace</h2>
-        <div className="text-block">
-          <h3>V rámci základního servisu klimatizace provedeme: </h3>
-          <p>• odsátí a recyklace starého chladiva ze systému klimatizace </p>
-          <p>
-            • zbavení mechanických nečistot a vlhkosti vakuací chladicího
-            systému
-          </p>
-          <p>
-            • kontrolu těsnosti okruhu autoklimatizace (opravu okruhu v případě
-            detekce úniků chladiva)
-          </p>
-          <p>• tlakové zkoušky jednotlivých částí okruhu klimatizace </p>
-          <p>• plnění okruhu speciálním olejem </p>
-          <p>• plnění okruhu autoklimatizace chladivem R134a nebo 1234yf </p>
-          <p>• zkoušku funkčnosti klimatizace</p>
+        <div className="klimatizace-block">
+          <div className="text-block">
+            <h3>V rámci základního servisu klimatizace provedeme: </h3>
+            <p>• odsátí a recyklace starého chladiva ze systému klimatizace </p>
+            <p>
+              • zbavení mechanických nečistot a vlhkosti vakuací chladicího
+              systému
+            </p>
+            <p>
+              • kontrolu těsnosti okruhu autoklimatizace (opravu okruhu v případě
+              detekce úniků chladiva)
+            </p>
+            <p>• tlakové zkoušky jednotlivých částí okruhu klimatizace </p>
+            <p>• plnění okruhu speciálním olejem </p>
+            <p>• plnění okruhu autoklimatizace chladivem R134a nebo 1234yf </p>
+            <p>• zkoušku funkčnosti klimatizace</p>
 
-          <h3>Volitelné dodatečné služby </h3>
-          <p>• doplnění UV kontrastní látky do chladiva </p>
-          <p>• dezinfekce klimatizace ultrazvukovým přístrojem</p>
-          <p>• výměna kabinového filtru</p>
+            <h3>Volitelné dodatečné služby </h3>
+            <p>• doplnění UV kontrastní látky do chladiva </p>
+            <p>• dezinfekce klimatizace ultrazvukovým přístrojem</p>
+            <p>• výměna kabinového filtru</p>
+          </div>
+          <div className="klimatizace-image-container round-corner">
+            <img src="/klimatizace.jpg"/>
+          </div>
         </div>
+        
       </div>
       <Hero title={"Montáže tažných zařízení"} id={"montaze"} />
       <div className="wrapper wrapper-block text-formating text-spacer">

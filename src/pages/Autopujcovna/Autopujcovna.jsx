@@ -14,7 +14,7 @@ function Autopujcovna() {
       cena: "1800",
     },
     {
-      img: "",
+      img: "/citroen.jpg",
       model: "Citroen C3",
       cena: "700",
     },

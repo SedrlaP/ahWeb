@@ -1,4 +1,12 @@
+.certifikaty {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.certifikaty img {
+  max-height: 350px;
+  max-width: 50%;
+}
 
 .partner img {
  max-width: 160px;
@@ -13,5 +21,17 @@
 @media only screen and (max-width:425px) {
   .partner__logo {
     flex-direction: column;
+  }
+}
+
+@media only screen and (width <= 800px) {
+  .certifikaty {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: center;
+  }
+
+  .certifikaty img {
+      max-width: 80%;
   }
 }

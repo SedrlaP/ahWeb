@@ -44,7 +44,7 @@ function Pneuservis() {
             <p>• sezónní uskladnění pneumatik</p>
             <p>• ekologická likvidace starých pneumatik</p>
           </div>
-          <div className="pneuservis-image">
+          <div className="pneuservis-image round-corner">
             <img src="/prezouvani.jpg" />
           </div>
         </div>
