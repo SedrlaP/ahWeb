@@ -16,6 +16,11 @@
     margin-block-end: 1.5rem;    
 }
 
+.contact__card-text a{
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}
+
 .contact__card-title {
     text-transform: uppercase;
     color: var(--text-color-secondary);

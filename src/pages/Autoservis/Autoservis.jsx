@@ -82,8 +82,7 @@ function Autoservis() {
         </p>
         <p>
           Na rozsáhlejší <strong>opravy karosérií</strong> lehkých a užitkových
-          vozidel do hmotnosti 2500 kg používáme rovnací stolici včetně měřícího
-          systému.
+          vozidel do hmotnosti 2500 kg používáme rovnací stolici.
         </p>
       </div>
       <Hero title={"Lakovna"} img={"lakovna"} id="lakovna" />
