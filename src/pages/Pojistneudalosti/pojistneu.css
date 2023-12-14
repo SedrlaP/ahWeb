@@ -8,8 +8,13 @@
   max-width: 50%;
 }
 
-.partner img {
- max-width: 160px;
+.cpp-logo {
+  max-width: 160px;
+}
+
+.ge-cp-logo {
+  margin-inline-start: 2rem;
+  margin-block-start: 2rem;
 }
 
 .partner__logo {
@@ -18,7 +23,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:799px) {
   .partner__logo {
     flex-direction: column;
   }
