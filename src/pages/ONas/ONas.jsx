@@ -33,7 +33,7 @@ function ONas() {
         </div>
         <div className="text-block">
           <h3>Naše partnerské pojišťovny</h3>
-          <p>Jsme smluvním partnerem pojišťoven <strong>ČPP, Kooperativa</strong>. Díky tomu můžeme likvidovat pojistné události bez vaší finanční účasti a vyřídit všechny potřebné dokumenty s pojišťovnou za vás. Kalkulace pro výpočet škod je prováděna pomocí systému schváleným pojišťovnami.</p>
+          <p>Jsme smluvním partnerem pojišťoven <strong>ČPP, Kooperativa a Generali Česká Pojišťovna</strong>. Díky tomu můžeme likvidovat pojistné události bez vaší finanční účasti a vyřídit všechny potřebné dokumenty s pojišťovnou za vás. Kalkulace pro výpočet škod je prováděna pomocí systému schváleným pojišťovnami.</p>
           <p>Máte sjednané havarijní pojištění u některé z jiných pojišťoven? Ani to pro nás není překážkou! I za vás vyřídíme veškerou komunikaci a potřebnou dokumentaci s pojišťovnou, včetně prohlídky technikem (i zde bez finanční účasti).</p>
         </div>
       </div>
