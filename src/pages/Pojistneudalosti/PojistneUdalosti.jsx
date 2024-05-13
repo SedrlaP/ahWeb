@@ -14,7 +14,7 @@ function PojistneUdalosti() {
         </p>
 
         <div className="partner">
-          Jsme smluvním partnerem pojištovny <strong>KOOPERATIVA</strong>, <strong>ČPP</strong> a <strong>Generali Česká Pojišťovna</strong>
+          Jsme smluvním partnerem pojištovny <strong>KOOPERATIVA</strong>, <strong>ČPP</strong>, <strong>Generali Česká Pojišťovna</strong> a <strong>Allianz</strong>
           <div className="partner__logo">
             <img
               src="/logo-koop.svg"
@@ -28,6 +28,7 @@ function PojistneUdalosti() {
               alt="generali česká pojišťovna logo"
               style={{ height: "60px" }}
             />
+            <img className="allianz-logo" src="/logo-allianz.png" alt="allianz logo" />
           </div>
         </div>
         <div className="text-block">
