@@ -14,7 +14,7 @@ function PojistneUdalosti() {
         </p>
 
         <div className="partner">
-          Jsme smluvním partnerem pojištovny <strong>KOOPERATIVA</strong>, <strong>ČPP</strong>, <strong>Generali Česká Pojišťovna</strong> a <strong>Allianz</strong>
+          Jsme smluvním partnerem pojištovny <strong>KOOPERATIVA</strong>, <strong>ČPP</strong>, <strong>Generali Česká Pojišťovna</strong>, <strong>Allianz</strong> a <strong>UNIQA</strong>.
           <div className="partner__logo">
             <img
               src="/logo-koop.svg"
@@ -29,6 +29,7 @@ function PojistneUdalosti() {
               style={{ height: "60px" }}
             />
             <img className="allianz-logo" src="/logo-allianz.png" alt="allianz logo" />
+            <img className="uniqa-logo" src="/logo-uniqa.svg" alt="uniqa logo" />
           </div>
         </div>
         <div className="text-block">
@@ -106,7 +107,11 @@ function PojistneUdalosti() {
             Záznam o dopravní nehodě
           </a>
         </p>
-      <div className="certifikaty"><img src="/certifikat-koop.jpg"/><img src="/certifikat-cpp.jpg"/></div>
+      <div className="certifikaty">
+        <img src="/certifikat-koop.jpg"/>
+        <img src="/certifikat-cpp.jpg"/>
+        <img src="/certifikat-uniqa.png"/>
+      </div>
       </div>
     </section>
   )
