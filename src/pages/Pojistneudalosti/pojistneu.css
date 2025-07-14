@@ -1,7 +1,32 @@
+.certifikaty {
+  display: flex;
+  justify-content: space-evenly;
+}
 
+.certifikaty img {
+  max-height: 350px;
+  max-width: 50%;
+}
 
-.partner img {
- max-width: 160px;
+.cpp-logo {
+  max-width: 160px;
+}
+
+.ge-cp-logo {
+  margin-inline-start: 2rem;
+  margin-block-start: 2rem;
+}
+
+.allianz-logo {
+  margin-inline-start: 2rem;
+  margin-block-start: 2rem;
+  max-width: 250px;
+}
+
+.uniqa-logo {
+  height: 100px;
+  margin-inline-start: 2rem;
+  margin-block-start: 2rem;
 }
 
 .partner__logo {
@@ -10,8 +35,20 @@
   align-items: center;
 }
 
-@media only screen and (max-width:425px) {
+@media only screen and (max-width:799px) {
   .partner__logo {
     flex-direction: column;
+  }
+}
+
+@media only screen and (width <= 800px) {
+  .certifikaty {
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: center;
+  }
+
+  .certifikaty img {
+      max-width: 80%;
   }
 }

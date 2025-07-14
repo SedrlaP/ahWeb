@@ -2,20 +2,47 @@
     background-color: var(--bg-color-primary);
     color: var(--text-color-primary);
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     position: sticky;
     top: 0;
     left: 0;
     padding-block: 1rem;
     box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    z-index: 999;
 }
 
-.header__logo {
+.header__upper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 1rem;
+}
+
+.header__upper-logo {
     text-transform: uppercase;
     font-size: 1.5rem;
     font-size: clamp(1.3rem, 0.30000000000000004rem + 1.6666666666666667vw, 1.8rem);
     text-align: center;
     line-height: 1.2;
+}
+
+.header__upper-logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header__upper-tel {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+.header__upper-opening {
+    display: flex;
+    gap: 1rem;
 }
 
 .nav__links a {
@@ -141,7 +168,16 @@ border-top: 1px solid #93ACD0;
 
 /* MOBILE MENU */
 
-@media only screen and (width <= 1200px) {
+@media only screen and (width <= 1010px) {
+
+    .hero {
+        scroll-margin-block-start: 6rem;
+    }
+
+    .header__upper-tel, .header__upper-opening {
+        display: none;
+    }
+
     .nav {
         position: absolute;
         text-align: left;
@@ -192,16 +228,25 @@ border-top: 1px solid #93ACD0;
 
 /* DESKTOP MENU */
 
-@media only screen and (width > 1200px) {
+@media only screen and (width > 1010px) {
+
+    .hero {
+        scroll-margin-block-start: 9rem;
+    }
+
     .header {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
+    .header__upper {
+        padding-inline: 2rem;
+    }
+
     .nav__links {
         display: flex;
-        gap: clamp(1.6rem, -0.942rem + 4.519vw, 3.125rem);
+        gap: clamp(0.833rem, 0.399rem + 0.825vw, 1.25rem);
         text-transform: uppercase;
     }
 

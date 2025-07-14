@@ -1,0 +1,17 @@
+.pneuservis-block {
+    display: flex;
+}
+
+@media only screen and (width <= 1010px) {
+    .pneuservis-block {
+        flex-direction: column;
+        gap: 1.5rem;
+    }    
+}
+
+.pneuservis-image {
+    align-self: center;
+    min-width: 350px;
+    width: 350px;
+}
+

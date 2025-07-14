@@ -9,7 +9,9 @@ const Home = lazy(() => import("./pages/Home/Home.jsx"))
 const Autoservis = lazy(() => import("./pages/Autoservis/Autoservis.jsx"))
 const Pneuservis = lazy(() => import("./pages/Pneuservis/Pneuservis.jsx"))
 const Autopujcovna = lazy(() => import("./pages/Autopujcovna/Autopujcovna.jsx"))
-const PojistneUdalosti = lazy(() => import("./pages/Pojistneudalosti/PojistneUdalosti.jsx"))
+const PojistneUdalosti = lazy(() =>
+  import("./pages/Pojistneudalosti/PojistneUdalosti.jsx")
+)
 const ONas = lazy(() => import("./pages/ONas/ONas.jsx"))
 const Kontakt = lazy(() => import("./pages/Kontakt/Kontakt.jsx"))
 const ErrorPage = lazy(() => import("./pages/ErrorPage/ErrorPage.jsx"))
@@ -30,11 +32,11 @@ const router = createBrowserRouter(
           ),
         },
         {
-          path: "/autoservis/:id",
+          path: "/autoservis",
           element: (
             <Suspense fallback={<div>Loading...</div>}>
               <Autoservis />
-            </Suspense>  
+            </Suspense>
           ),
         },
         {
@@ -45,16 +47,16 @@ const router = createBrowserRouter(
             </Suspense>
           ),
         },
-        
-      {
-        path: "/autopujcovna",
-        element: (
-          <Suspense fallback={<div>Loading...</div>}>
-            <Autopujcovna />
-          </Suspense>
-        ),
-      },
-    
+
+        {
+          path: "/autopujcovna",
+          element: (
+            <Suspense fallback={<div>Loading...</div>}>
+              <Autopujcovna />
+            </Suspense>
+          ),
+        },
+
         {
           path: "/pojistneudalosti",
           element: (
@@ -81,7 +83,7 @@ const router = createBrowserRouter(
         },
       ],
     },
-  ],
+  ]
   //{ basename: "/ahWeb" }
 )
 

@@ -14,7 +14,7 @@ function Contact() {
           <li className="contact__card-text">IČO: 76664490</li>
           <li className="contact__card-text">DIČ: CZ8902285139</li>
           <li className="contact__card-text">
-            Facebook: AutoservisHalas
+            Facebook: <a target="_blank" href="https://www.facebook.com/profile.php?id=100077845975503">AutoservisHalas</a>
           </li>
         </ul>
       </div>

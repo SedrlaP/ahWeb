@@ -36,6 +36,11 @@ function Footer() {
           <li>renaulthalas@seznam.cz</li>
         </ul>
       </div>
+      <div className="footer__cebia">
+        <a href="https://cz.cebia.com/?a_box=zua3skne">
+          <img src="https://partner.cebia.com/data/kampan/6/300x300.png" width="300" height="300" alt="" />
+        </a>
+      </div>
     </footer>
   )
 }
