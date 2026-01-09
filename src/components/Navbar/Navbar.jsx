@@ -22,7 +22,7 @@ function Navbar() {
         <div className="header__upper-logo">
           <NavLink
             to={`/`}
-            className={({ isActive }) => (isActive ? "active" : "")}
+            className={({ isActive }) => (isActive ? "" : "")}
             onClick={closeMenu}
           >
             Autoservis <br /> Halas
