@@ -23,8 +23,8 @@ function Contact() {
         <div className="two-column">
           <p className="contact__card-text">Pondělí-Pátek:</p>
           <p className="contact__card-text">
-            8:00-12:30 <br />
-            13:00-16:30
+            7:00-12:30 <br />
+            13:00-15:30
           </p>
         </div>
         <div className="iframe-container">

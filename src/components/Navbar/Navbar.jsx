@@ -35,8 +35,8 @@ function Navbar() {
         <div className="header__upper-opening">
           <p>Pondělí-Pátek</p>
           <p>
-            8:00-12:30 <br />
-            13:00-16:30
+            7:00-12:30 <br />
+            13:00-15:30
           </p>
         </div>
       </div>
